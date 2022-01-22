@@ -7,6 +7,14 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Test</title>
    <link rel="stylesheet" href="css/style.css">
+   <script>document.addEventListener('DOMContentLoaded', function () {
+         const slider = new ChiefSlider('.slider', {
+            loop: false,
+            swipe: true
+         });
+      });
+   </script>
+   <script src="script/chief-slider.min.js"></script>
 </head>
 
 <body>
@@ -565,146 +573,269 @@
                      Недавно смотрели
                   </div>
                   <div class="conteiner__flex_row">
-                     <div class="flexconteiner__conteiner">
-                        <div class="flexconteiner__body">
-                           <div class="flexconteiner__widget">
-                              <div class="minipic">
-                                 <div class="minipic__img"><img src="images/icon/dialog.svg" alt="#"></div>
-                                 <div class="minipic__text">0 отзыв(ов)</div>
-                                 <div class="minipic__img"><img src="images/icon/stargreu.svg" alt="#"></div>
-                              </div>
-                           </div>
-                           <div class="flexconteiner__bigimages">
-                              <div class="bigimages__ibg">
-                                 <img src="images/foto/_MG_6093 2.jpg" alt="#">
-                              </div>
-                           </div>
-                           <!----------блок с текстом--------------------------------------------------->
-                           <div class="flexconteiner__big_block_text">
-                              <div class="big_block_text_numberone">
-                                 <div class="numberone__text1">2 750 грн</div>
-                                 <div class="numberone__text2">102.9355.00</div>
-                              </div>
-                              <div class="big_block_text_numbertwo">
-                                 <div class="numbertwo__text">Защита двигателя,КПП и радиатора Chevrolet Aveo
-                                    Т-200 2002-2008, Premium (Оцинкованная сталь + покрытие)</div>
-                              </div>
-                              <div class="big_block_text_numberthree">
-                                 <div class="numberthree__text1">
-                                    <span class="black_text">Что закрывает:</span>
-                                    двигатель, КПП, радиатор
+                     <!--------СЛАЙДЕР------------------------------------------------------------------------------>
+                     <div class="slider">
+                        <div class="slider__wrapper">
+                           <div class="slider__items">
+                              <div class="slider__item">
+                                 <!-- Контент 1 слайда -->
+                                 <div class="flexconteiner__conteiner slider__item_conteiner">
+                                    <div class="flexconteiner__body">
+                                       <div class="flexconteiner__widget">
+                                          <div class="minipic">
+                                             <div class="minipic__img"><img src="images/icon/dialog.svg" alt="#"></div>
+                                             <div class="minipic__text">0 отзыв(ов)</div>
+                                             <div class="minipic__img"><img src="images/icon/stargreu.svg" alt="#">
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="flexconteiner__bigimages">
+                                          <div class="bigimages__ibg">
+                                             <img src="images/foto/_MG_6093 2.jpg" alt="#">
+                                          </div>
+                                       </div>
+                                       <!----------блок с текстом--------------------------------------------------->
+                                       <div class="flexconteiner__big_block_text">
+                                          <div class="big_block_text_numberone">
+                                             <div class="numberone__text1">2 750 грн</div>
+                                             <div class="numberone__text2">102.9355.00</div>
+                                          </div>
+                                          <div class="big_block_text_numbertwo">
+                                             <div class="numbertwo__text">Защита двигателя,КПП и радиатора Chevrolet
+                                                Aveo
+                                                Т-200 2002-2008, Premium (Оцинкованная сталь + покрытие)</div>
+                                          </div>
+                                          <div class="big_block_text_numberthree">
+                                             <div class="numberthree__text1">
+                                                <span class="black_text">Что закрывает:</span>
+                                                двигатель, КПП, радиатор
+                                             </div>
+                                             <div class="numberthree__text2">
+                                                <span class="black_text">Материал:</span>
+                                                серия <span class="gren__text">Premium</span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--------------------------------------->
+                                       <div class="flexconteiner__block_apply">
+                                          <div class="flexconteiner__block__apply_bottom">
+                                             <div class="flexconteiner__bottom__no"><a href="#">Кпить в 1 клик</a>
+                                             </div>
+                                             <div class="flexconteiner__bottom__yes"><a href="#">Заказать</a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
                                  </div>
-                                 <div class="numberthree__text2">
-                                    <span class="black_text">Материал:</span>
-                                    серия <span class="gren__text">Premium</span>
+                              </div>
+                              <div class="slider__item">
+                                 <!-- Контент 2 слайда -->
+                                 <div class="flexconteiner__conteiner slider__item_conteiner">
+                                    <div class="flexconteiner__body">
+                                       <div class="flexconteiner__widget">
+                                          <div class="minipic">
+                                             <div class="minipic__img"><img src="images/icon/dialog.svg" alt="#"></div>
+                                             <div class="minipic__text">0 отзыв(ов)</div>
+                                             <div class="minipic__img"><img src="images/icon/stargreu.svg" alt="#">
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="flexconteiner__bigimages">
+                                          <div class="bigimages__ibg">
+                                             <img src="images/foto/_MG_6093 2.jpg" alt="#">
+                                          </div>
+                                       </div>
+                                       <!----------блок с текстом--------------------------------------------------->
+                                       <div class="flexconteiner__big_block_text">
+                                          <div class="big_block_text_numberone">
+                                             <div class="numberone__text1">2 750 грн</div>
+                                             <div class="numberone__text2">102.9355.00</div>
+                                          </div>
+                                          <div class="big_block_text_numbertwo">
+                                             <div class="numbertwo__text">Защита двигателя,КПП и радиатора Chevrolet
+                                                Aveo
+                                                Т-200 2002-2008, Premium (Оцинкованная сталь + покрытие)</div>
+                                          </div>
+                                          <div class="big_block_text_numberthree">
+                                             <div class="numberthree__text1">
+                                                <span class="black_text">Что закрывает:</span>
+                                                двигатель, КПП, радиатор
+                                             </div>
+                                             <div class="numberthree__text2">
+                                                <span class="black_text">Материал:</span>
+                                                серия <span class="gren__text">Premium</span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--------------------------------------->
+                                       <div class="flexconteiner__block_apply">
+                                          <div class="flexconteiner__block__apply_bottom">
+                                             <div class="flexconteiner__bottom__no"><a href="#">Кпить в 1 клик</a>
+                                             </div>
+                                             <div class="flexconteiner__bottom__yes"><a href="#">Заказать</a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
                                  </div>
                               </div>
-                           </div>
-                           <!--------------------------------------->
-                           <div class="flexconteiner__block_apply">
-                              <div class="flexconteiner__block__apply_bottom">
-                                 <div class="flexconteiner__bottom__no"><a href="#">Кпить в 1 клик</a>
+                              <div class="slider__item">
+                                 <!-- Контент 3 слайда -->
+                                 <div class="flexconteiner__conteiner slider__item_conteiner">
+                                    <div class="flexconteiner__body">
+                                       <div class="flexconteiner__widget">
+                                          <div class="minipic">
+                                             <div class="minipic__img"><img src="images/icon/dialog.svg" alt="#"></div>
+                                             <div class="minipic__text">0 отзыв(ов)</div>
+                                             <div class="minipic__img"><img src="images/icon/stargreu.svg" alt="#">
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="flexconteiner__bigimages">
+                                          <div class="bigimages__ibg">
+                                             <img src="images/foto/_MG_6093 2.jpg" alt="#">
+                                          </div>
+                                       </div>
+                                       <!----------блок с текстом--------------------------------------------------->
+                                       <div class="flexconteiner__big_block_text">
+                                          <div class="big_block_text_numberone">
+                                             <div class="numberone__text1">2 750 грн</div>
+                                             <div class="numberone__text2">102.9355.00</div>
+                                          </div>
+                                          <div class="big_block_text_numbertwo">
+                                             <div class="numbertwo__text">Защита двигателя,КПП и радиатора Chevrolet
+                                                Aveo
+                                                Т-200 2002-2008, Premium (Оцинкованная сталь + покрытие)</div>
+                                          </div>
+                                          <div class="big_block_text_numberthree">
+                                             <div class="numberthree__text1">
+                                                <span class="black_text">Что закрывает:</span>
+                                                двигатель, КПП, радиатор
+                                             </div>
+                                             <div class="numberthree__text2">
+                                                <span class="black_text">Материал:</span>
+                                                серия <span class="gren__text">Premium</span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--------------------------------------->
+                                       <div class="flexconteiner__block_apply">
+                                          <div class="flexconteiner__block__apply_bottom">
+                                             <div class="flexconteiner__bottom__no"><a href="#">Кпить в 1 клик</a>
+                                             </div>
+                                             <div class="flexconteiner__bottom__yes"><a href="#">Заказать</a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
                                  </div>
-                                 <div class="flexconteiner__bottom__yes"><a href="#">Заказать</a>
+                              </div>
+                              <div class="slider__item">
+                                 <!-- Контент 4 слайда -->
+                                 <div class="flexconteiner__conteiner slider__item_conteiner">
+                                    <div class="flexconteiner__body">
+                                       <div class="flexconteiner__widget">
+                                          <div class="minipic">
+                                             <div class="minipic__img"><img src="images/icon/dialog.svg" alt="#"></div>
+                                             <div class="minipic__text">0 отзыв(ов)</div>
+                                             <div class="minipic__img"><img src="images/icon/stargreu.svg" alt="#">
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="flexconteiner__bigimages">
+                                          <div class="bigimages__ibg">
+                                             <img src="images/foto/_MG_6093 2.jpg" alt="#">
+                                          </div>
+                                       </div>
+                                       <!----------блок с текстом--------------------------------------------------->
+                                       <div class="flexconteiner__big_block_text">
+                                          <div class="big_block_text_numberone">
+                                             <div class="numberone__text1">2 750 грн</div>
+                                             <div class="numberone__text2">102.9355.00</div>
+                                          </div>
+                                          <div class="big_block_text_numbertwo">
+                                             <div class="numbertwo__text">Защита двигателя,КПП и радиатора Chevrolet
+                                                Aveo
+                                                Т-200 2002-2008, Premium (Оцинкованная сталь + покрытие)</div>
+                                          </div>
+                                          <div class="big_block_text_numberthree">
+                                             <div class="numberthree__text1">
+                                                <span class="black_text">Что закрывает:</span>
+                                                двигатель, КПП, радиатор
+                                             </div>
+                                             <div class="numberthree__text2">
+                                                <span class="black_text">Материал:</span>
+                                                серия <span class="gren__text">Premium</span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--------------------------------------->
+                                       <div class="flexconteiner__block_apply">
+                                          <div class="flexconteiner__block__apply_bottom">
+                                             <div class="flexconteiner__bottom__no"><a href="#">Кпить в 1 клик</a>
+                                             </div>
+                                             <div class="flexconteiner__bottom__yes"><a href="#">Заказать</a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="slider__item">
+                                 <!-- Контент 5 слайда -->
+                                 <div class="flexconteiner__conteiner slider__item_conteiner">
+                                    <div class="flexconteiner__body">
+                                       <div class="flexconteiner__widget">
+                                          <div class="minipic">
+                                             <div class="minipic__img"><img src="images/icon/dialog.svg" alt="#"></div>
+                                             <div class="minipic__text">0 отзыв(ов)</div>
+                                             <div class="minipic__img"><img src="images/icon/stargreu.svg" alt="#">
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="flexconteiner__bigimages">
+                                          <div class="bigimages__ibg">
+                                             <img src="images/foto/_MG_6093 2.jpg" alt="#">
+                                          </div>
+                                       </div>
+                                       <!----------блок с текстом--------------------------------------------------->
+                                       <div class="flexconteiner__big_block_text">
+                                          <div class="big_block_text_numberone">
+                                             <div class="numberone__text1">2 750 грн</div>
+                                             <div class="numberone__text2">102.9355.00</div>
+                                          </div>
+                                          <div class="big_block_text_numbertwo">
+                                             <div class="numbertwo__text">Защита двигателя,КПП и радиатора Chevrolet
+                                                Aveo
+                                                Т-200 2002-2008, Premium (Оцинкованная сталь + покрытие)</div>
+                                          </div>
+                                          <div class="big_block_text_numberthree">
+                                             <div class="numberthree__text1">
+                                                <span class="black_text">Что закрывает:</span>
+                                                двигатель, КПП, радиатор
+                                             </div>
+                                             <div class="numberthree__text2">
+                                                <span class="black_text">Материал:</span>
+                                                серия <span class="gren__text">Premium</span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <!--------------------------------------->
+                                       <div class="flexconteiner__block_apply">
+                                          <div class="flexconteiner__block__apply_bottom">
+                                             <div class="flexconteiner__bottom__no"><a href="#">Кпить в 1 клик</a>
+                                             </div>
+                                             <div class="flexconteiner__bottom__yes"><a href="#">Заказать</a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
                                  </div>
                               </div>
                            </div>
                         </div>
-                     </div>
-                     <div class="flexconteiner__conteiner flex__blok_none">
-                        <div class="flexconteiner__body">
-                           <div class="flexconteiner__widget">
-                              <div class="minipic">
-                                 <div class="minipic__img"><img src="images/icon/dialog.svg" alt="#"></div>
-                                 <div class="minipic__text">0 отзыв(ов)</div>
-                                 <div class="minipic__img"><img src="images/icon/stargreu.svg" alt="#"></div>
-                              </div>
-                           </div>
-                           <div class="flexconteiner__bigimages">
-                              <div class="bigimages__ibg">
-                                 <img src="images/foto/_MG_6093 2.jpg" alt="#">
-                              </div>
-                           </div>
-                           <!----------блок с текстом--------------------------------------------------->
-                           <div class="flexconteiner__big_block_text">
-                              <div class="big_block_text_numberone">
-                                 <div class="numberone__text1">2 750 грн</div>
-                                 <div class="numberone__text2">102.9355.00</div>
-                              </div>
-                              <div class="big_block_text_numbertwo">
-                                 <div class="numbertwo__text">Защита двигателя,КПП и радиатора Chevrolet Aveo
-                                    Т-200 2002-2008, Premium (Оцинкованная сталь + покрытие)</div>
-                              </div>
-                              <div class="big_block_text_numberthree">
-                                 <div class="numberthree__text1">
-                                    <span class="black_text">Что закрывает:</span>
-                                    двигатель, КПП, радиатор
-                                 </div>
-                                 <div class="numberthree__text2">
-                                    <span class="black_text">Материал:</span>
-                                    серия <span class="gren__text">Premium</span>
-                                 </div>
-                              </div>
-                           </div>
-                           <!--------------------------------------->
-                           <div class="flexconteiner__block_apply">
-                              <div class="flexconteiner__block__apply_bottom">
-                                 <div class="flexconteiner__bottom__no"><a href="#">Кпить в 1 клик</a>
-                                 </div>
-                                 <div class="flexconteiner__bottom__yes"><a href="#">Заказать</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="flexconteiner__conteiner flex__blok_none">
-                        <div class="flexconteiner__body">
-                           <div class="flexconteiner__widget">
-                              <div class="minipic">
-                                 <div class="minipic__img"><img src="images/icon/dialog.svg" alt="#"></div>
-                                 <div class="minipic__text">0 отзыв(ов)</div>
-                                 <div class="minipic__img"><img src="images/icon/stargreu.svg" alt="#"></div>
-                              </div>
-                           </div>
-                           <div class="flexconteiner__bigimages">
-                              <div class="bigimages__ibg">
-                                 <img src="images/foto/_MG_6093 2.jpg" alt="#">
-                              </div>
-                           </div>
-                           <!----------блок с текстом--------------------------------------------------->
-                           <div class="flexconteiner__big_block_text">
-                              <div class="big_block_text_numberone">
-                                 <div class="numberone__text1">2 750 грн</div>
-                                 <div class="numberone__text2">102.9355.00</div>
-                              </div>
-                              <div class="big_block_text_numbertwo">
-                                 <div class="numbertwo__text">Защита двигателя,КПП и радиатора Chevrolet Aveo
-                                    Т-200 2002-2008, Premium (Оцинкованная сталь + покрытие)</div>
-                              </div>
-                              <div class="big_block_text_numberthree">
-                                 <div class="numberthree__text1">
-                                    <span class="black_text">Что закрывает:</span>
-                                    двигатель, КПП, радиатор
-                                 </div>
-                                 <div class="numberthree__text2">
-                                    <span class="black_text">Материал:</span>
-                                    серия <span class="gren__text">Premium</span>
-                                 </div>
-                              </div>
-                           </div>
-                           <!--------------------------------------->
-                           <div class="flexconteiner__block_apply">
-                              <div class="flexconteiner__block__apply_bottom">
-                                 <div class="flexconteiner__bottom__no"><a href="#">Кпить в 1 клик</a>
-                                 </div>
-                                 <div class="flexconteiner__bottom__yes"><a href="#">Заказать</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="arrow__zeroblack">
-                        <div class="arrow__black"></div>
+                        <a href="#" class="slider__control" data-slide="prev"><span class="arroww"></span></a>
+                        <a href="#" class="slider__control" data-slide="next"><span class="arroww2"></span></a>
                      </div>
                   </div>
                   <div class="aside">
