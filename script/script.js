@@ -22,9 +22,9 @@ $(document).ready(function () {
 $(document).ready(function () {
    $('.block__title_defends').click(function (event) {
       if ($('.block').hasClass('one')) {
-         $('.block__title_defends').not($(this)).removeClass('active');
+         $('.block__title_defends').not($(this)).removeClass('active3');
          //$('.block__text_defends').not($(this).next()).slideUp(300);
       }
-      $(this).toggleClass('active').next().slideToggle(300);
+      $(this).toggleClass('active3').next().slideToggle(300);
    });
 });
